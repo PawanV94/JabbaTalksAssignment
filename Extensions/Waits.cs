@@ -12,20 +12,6 @@ namespace FlightTest.Extensions
 {
     public static class Waits
     {
-        public static void ElementWaitUntilClickable(this IWebElement element)
-        {
-            try
-            {
-                var wait = new WebDriverWait(DriverContext.Driver, TimeSpan.FromSeconds(10));
-                wait.Until(ExpectedConditions.ElementToBeClickable(element));
-            }
-            catch (Exception E)
-            {
-                element.ConditionalWait();
-            }
-
-        }
-
         /// <summary>
         /// Waits for the webelement to be clickable and ignores exceptions
         /// </summary>

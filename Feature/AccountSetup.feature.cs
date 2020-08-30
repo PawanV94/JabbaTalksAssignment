@@ -116,7 +116,7 @@ testRunner.When("I provide my full name \"test vatge\"", ((string)(null)), ((Tec
 testRunner.And("I provide my organization name \"ThinkBridge\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 12
-testRunner.And("I provide my email \"testtt11@outlook.com\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.And("I provide my email \"testjabbatalks@outlook.com\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 13
 testRunner.And("I agree to terms and conditons", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -131,7 +131,7 @@ testRunner.Then("I verify a welcome email has been sent message is displayed", (
 testRunner.Given("I navigate to \"https://www.outlook.com\" email client", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 19
-testRunner.And("I login as \"test123jabba@outlook.com\" to email client", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.And("I login as \"testjabbatalks@outlook.com\" to email client", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 20
 testRunner.Then("I verify welcome email from jabba talks email address \"donotreply-dev@jabatalks.c" +

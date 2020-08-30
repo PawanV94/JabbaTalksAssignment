@@ -37,7 +37,7 @@ namespace FlightTest.Locators
 
         public void ValidateDDL(string s)
         {
-            string[] options = s.Split('|');
+            string[] options = s.Split(',');
 
             foreach(IWebElement element in DDlLanguages)
             {
